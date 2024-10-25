@@ -1,7 +1,7 @@
 # new-repo
 
 ```bash
-virtualenv .venv
-source .venv/Scripts/activate
-pip install -r requirements.txt
+git add requirements.txt
+git commit -m "Add Flask to requirements.txt"
+git push origin main
 ```
